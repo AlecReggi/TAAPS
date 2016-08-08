@@ -1,0 +1,37 @@
+body {
+    background-color: #FFF1D6; /* muda a cor plano de fundo */
+    font-family: sans-serif; /* muda a fonte */
+    line-height: 1.6; /* Muda a altura da linha */
+/*    background: url('fotos.jpg') no-repeat;*/
+}
+
+h1 {
+    color: #7E9F19;
+}
+.sessao{
+    border: 5px solid #ccc;
+    border-color:#ccc #999 #999 #ccc ;
+    margin-bottom: 20px;
+    padding: 0px 10px 10px 10px;
+    background-color: #fff;
+    border-radius: 20px;  
+} 
+.sessao h2 {
+
+border-bottom: 1px dashed #7E9F19;
+
+}
+
+img {
+border: 1px solid #7E9F19 ;
+padding: 2px;
+margin: 0px 10px 0px 0px;
+width: 200px;
+float: left;
+
+}
+
+.clear {
+clear: both;
+
+}
