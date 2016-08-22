@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Primeiro Formulário</title>
+</head>
+
+<body>
+    <h1> Digite seus dados..:</h1>
+    <form action="http://cospeparametros.herokuapp.com/">
+        <label for="Nome">Nome:</label>
+        <input name="nome_usu" id="Nome " type="text" required placeholder="Nome"><br/>
+
+        <label for="Idade">Idade</label>
+        <input name="Idade" id="Idade" type="number" placeholder="xx"><br/>
+
+        <label for="Cor do cabelo:">Cor do Cabelo</label>
+        <input name="Cor_cabelo" type="color" ><br/>
+
+        <label for="Data de Nascimento:">Data de Nascimento:</label>
+        <input name="Dt_Nasc" id="Cor do cabelo" type="date" placeholder="xx/xx/xxxx"><br/>
+
+        <label for="Semana de Gravidez">Semana de Gravidez</label>        
+        <input name="Semana" id="Semana de Gravidez" type="week"><br/>
+
+        <label for="email:">Email</label>
+        <input name= "emaill" id="email" type="email" placeholder="exemplo@exemplo.com"><br/>
+
+        <label for="Telefone:">Telefone</label>
+        <input name="tele" id="Telefone" type="tel" placeholder="(xx) x xxxx.xxxx"><br/>
+        
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+
+</html>
